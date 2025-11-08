@@ -73,70 +73,91 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="min-h-screen p-6">
-      <header className="max-w-7xl mx-auto mb-12">
-        <div className="flex justify-between items-center mb-8">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-8 h-8 text-primary" />
-            <h1 className="text-3xl font-bold gradient-text">AIverse Copilot</h1>
-          </div>
-          <Button onClick={handleLogout} variant="outline">
-            <LogOut className="w-4 h-4 mr-2" />
-            Logout
-          </Button>
-        </div>
-        
-        <div className="glass-card p-6 rounded-2xl">
-          <h2 className="text-2xl font-bold mb-2">
-            Welcome back, {userName || "Explorer"}! 👋
-          </h2>
-          <p className="text-muted-foreground">
-            Choose a module to start your AI co-creation journey
-          </p>
-        </div>
-      </header>
-
-      <main className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {modules.map((module, index) => {
-            const Icon = module.icon;
-            return (
-              <div
-                key={module.path}
-                className="glass-card p-8 rounded-2xl cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl animate-float"
-                style={{ animationDelay: `${index * 0.1}s` }}
-                onClick={() => navigate(module.path)}
-              >
-                <div className={`inline-flex p-4 rounded-xl bg-gradient-to-br ${module.gradient} mb-4`}>
-                  <Icon className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold mb-2">{module.title}</h3>
-                <p className="text-muted-foreground">{module.description}</p>
+    <div className="min-h-screen p-4 md:p-8 lg:p-12">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <header className="mb-12 space-y-6">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div className="flex items-center gap-3 animate-fade-in">
+              <div className="p-2 rounded-xl bg-gradient-to-br from-primary to-secondary animate-pulse-glow">
+                <Sparkles className="w-8 h-8 text-primary-foreground" />
               </div>
-            );
-          })}
-        </div>
+              <h1 className="text-4xl font-bold gradient-text">AIverse Copilot</h1>
+            </div>
+            <Button 
+              onClick={handleLogout} 
+              variant="outline"
+              className="gap-2 hover:bg-destructive/10 hover:text-destructive hover:border-destructive/50 transition-all duration-300"
+            >
+              <LogOut className="w-4 h-4" />
+              Logout
+            </Button>
+          </div>
+          
+          <div className="glass-card p-8 rounded-3xl animate-fade-in border-2 border-border/50">
+            <h2 className="text-3xl md:text-4xl font-bold mb-3 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+              Welcome back, {userName || "Explorer"}! 👋
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Choose a module to start your AI co-creation journey
+            </p>
+          </div>
+        </header>
 
-        <div className="mt-12 text-center space-y-4">
-          <Button
-            variant="outline"
-            onClick={() => navigate("/about")}
-            className="mr-4"
-          >
-            About Team
-          </Button>
-          <Button
-            variant="outline"
-            onClick={() => navigate("/impact")}
-          >
-            Our Impact
-          </Button>
-        </div>
-      </main>
+        {/* Main Content */}
+        <main className="space-y-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            {modules.map((module, index) => {
+              const Icon = module.icon;
+              return (
+                <div
+                  key={module.path}
+                  className="group glass-card p-8 rounded-3xl cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl border-2 border-border/30 hover:border-primary/50 animate-fade-in"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                  onClick={() => navigate(module.path)}
+                >
+                  <div className={`inline-flex p-5 rounded-2xl bg-gradient-to-br ${module.gradient} mb-6 shadow-lg group-hover:shadow-xl transition-shadow duration-300`}>
+                    <Icon className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold mb-3 group-hover:text-primary transition-colors duration-300">
+                    {module.title}
+                  </h3>
+                  <p className="text-base text-muted-foreground group-hover:text-foreground/80 transition-colors duration-300">
+                    {module.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
 
-      <footer className="mt-16 text-center text-muted-foreground">
-        <p>Empowering humans through AI co-creation</p>
-      </footer>
+          {/* Bottom Links */}
+          <div className="flex flex-wrap gap-4 justify-center items-center animate-fade-in pt-6">
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={() => navigate("/about")}
+              className="gap-2 hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300"
+            >
+              About Team
+            </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={() => navigate("/impact")}
+              className="gap-2 hover:bg-secondary/10 hover:text-secondary hover:border-secondary/50 transition-all duration-300"
+            >
+              Our Impact
+            </Button>
+          </div>
+        </main>
+
+        {/* Footer */}
+        <footer className="mt-20 text-center">
+          <p className="text-muted-foreground text-lg">
+            ✨ Empowering humans through AI co-creation ✨
+          </p>
+        </footer>
+      </div>
     </div>
   );
 };
