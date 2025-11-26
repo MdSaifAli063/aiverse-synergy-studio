@@ -47,3 +47,5 @@ src/
 - 🧱 **shadcn-ui** — Beautiful & reusable UI components  
 
 -----------------------------------------------------
+
+## 🚀 Features
