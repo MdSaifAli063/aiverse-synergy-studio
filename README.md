@@ -81,3 +81,7 @@ Dist folder will contain optimised output.
 -----------------------------------------------------
 
 ## 🧪 Optional Dev Tools
+$ npm run lint
+$ npm run format
+
+-----------------------------------------------------
