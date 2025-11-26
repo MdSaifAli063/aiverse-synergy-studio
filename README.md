@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# 🚀 Welcome to Your Lovable Project (React + Vite + shadcn UI)
 
 ## Project info
 
