@@ -12,9 +12,7 @@
 
 
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/0875167b-e9a1-4619-a02a-b1582cae0c24) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
