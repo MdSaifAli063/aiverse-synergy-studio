@@ -20,3 +20,8 @@ $ npm run dev
 
 # 3. Edit Directly on GitHub
 Open any file → Click "Edit" → Update → Commit.
+
+# 4. Use GitHub Codespaces
+Repository → Code → Codespaces → New Codespace → Edit & push instantly.
+
+-----------------------------------------------------
