@@ -10,3 +10,10 @@ Description: A fast, modern, and customizable React project powered by Vite, Typ
 
 # 1. Edit on Lovable (Easiest)
 Open the project → start prompting → all changes auto-commit to the repository.
+
+# 2. Edit Locally (Your IDE)
+$ git clone <YOUR_GIT_URL>
+$ cd <YOUR_PROJECT_NAME>
+$ npm i
+$ npm run dev
+(Dev server starts with hot-reload.)
