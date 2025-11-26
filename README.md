@@ -39,3 +39,11 @@ src/
 -----------------------------------------------------
 
 ## 🧩 Tech Stack
+
+- ⚡ **Vite** — Ultra-fast dev & build tooling  
+- ⚛️ **React** — Component-based UI  
+- 🔒 **TypeScript** — Strong typing  
+- 🎨 **Tailwind CSS** — Utility-first styling  
+- 🧱 **shadcn-ui** — Beautiful & reusable UI components  
+
+-----------------------------------------------------
