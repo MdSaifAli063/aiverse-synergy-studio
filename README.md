@@ -6,3 +6,4 @@ Description: A fast, modern, and customizable React project powered by Vite, Typ
 
 -----------------------------------------------------
 
+## 🛠️ How to Edit This Project
