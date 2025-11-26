@@ -3,11 +3,6 @@
 
 
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/0875167b-e9a1-4619-a02a-b1582cae0c24) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
