@@ -71,3 +71,11 @@ Project → Settings → Domains → Connect Domain
 Full Docs → https://docs.lovable.dev/features/custom-domain#custom-domain
 
 -----------------------------------------------------
+
+## 📦 Production Build
+$ npm run build
+$ npm run preview
+
+Dist folder will contain optimised output.
+
+-----------------------------------------------------
