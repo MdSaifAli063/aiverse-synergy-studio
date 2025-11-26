@@ -58,3 +58,9 @@ src/
 - 🚀 Fully Lovable-compatible for AI-based editing  
 
 -----------------------------------------------------
+
+## 🌍 Deployment (1 Click)
+Open Lovable → Share → Publish  
+Deployment completes instantly.
+
+-----------------------------------------------------
