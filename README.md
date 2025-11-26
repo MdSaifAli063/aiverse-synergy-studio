@@ -85,3 +85,6 @@ $ npm run lint
 $ npm run format
 
 -----------------------------------------------------
+
+# ✔ Project Ready!
+Start building, editing, and deploying your modern React application with ease!
