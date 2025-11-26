@@ -17,3 +17,6 @@ $ cd <YOUR_PROJECT_NAME>
 $ npm i
 $ npm run dev
 (Dev server starts with hot-reload.)
+
+# 3. Edit Directly on GitHub
+Open any file → Click "Edit" → Update → Commit.
