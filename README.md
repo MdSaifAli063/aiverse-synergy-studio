@@ -1,8 +1,6 @@
 # 🚀 Welcome to Your Lovable Project (React + Vite + shadcn UI)
 
-## Project info
 
-**URL**: https://lovable.dev/projects/0875167b-e9a1-4619-a02a-b1582cae0c24
 
 ## How can I edit this code?
 
