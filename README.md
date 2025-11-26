@@ -7,3 +7,6 @@ Description: A fast, modern, and customizable React project powered by Vite, Typ
 -----------------------------------------------------
 
 ## 🛠️ How to Edit This Project
+
+# 1. Edit on Lovable (Easiest)
+Open the project → start prompting → all changes auto-commit to the repository.
