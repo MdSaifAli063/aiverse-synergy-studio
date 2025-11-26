@@ -64,3 +64,10 @@ Open Lovable → Share → Publish
 Deployment completes instantly.
 
 -----------------------------------------------------
+
+## 🔗 Custom Domain
+Project → Settings → Domains → Connect Domain
+
+Full Docs → https://docs.lovable.dev/features/custom-domain#custom-domain
+
+-----------------------------------------------------
