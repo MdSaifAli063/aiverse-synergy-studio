@@ -1,4 +1,4 @@
-# 🚀 Welcome to Your Lovable Project (React + Vite + shadcn UI)
+# 🚀 Welcome to My Lovable Project (React + Vite + shadcn UI)
 
 ## 📌 Project Info
 URL: https://lovable.dev/projects/0875167b-e9a1-4619-a02a-b1582cae0c24
