@@ -27,3 +27,13 @@ Repository → Code → Codespaces → New Codespace → Edit & push instantly.
 -----------------------------------------------------
 
 ## 📁 Project Structure (Quick Overview)
+
+src/
+ ├── components/     → Shared UI components  
+ ├── pages/          → App pages & routes  
+ ├── hooks/          → Custom hooks  
+ ├── lib/            → Utilities & helpers  
+ ├── styles/         → Tailwind/global CSS  
+ └── main.tsx        → App entry file
+
+-----------------------------------------------------
