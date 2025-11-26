@@ -61,6 +61,7 @@ src/
 
 ## 🌍 Deployment (1 Click)
 Open Lovable → Share → Publish  
+
 Deployment completes instantly.
 
 -----------------------------------------------------
@@ -73,7 +74,7 @@ Full Docs → https://docs.lovable.dev/features/custom-domain#custom-domain
 -----------------------------------------------------
 
 ## 📦 Production Build
-$ npm run build
+$ npm run build <br>
 $ npm run preview
 
 Dist folder will contain optimised output.
