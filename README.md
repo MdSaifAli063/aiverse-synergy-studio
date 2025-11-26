@@ -49,3 +49,12 @@ src/
 -----------------------------------------------------
 
 ## 🚀 Features
+
+- ⚡ Instant startup using Vite  
+- 🎛️ Modern UI with shadcn components  
+- 🌓 Clean, responsive layout (mobile-ready)  
+- 🔧 Easy structure for scaling & adding features  
+- 🎨 Tailwind-based styling for rapid design  
+- 🚀 Fully Lovable-compatible for AI-based editing  
+
+-----------------------------------------------------
