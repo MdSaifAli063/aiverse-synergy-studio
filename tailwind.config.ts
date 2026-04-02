@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
-        body: ['"Inter"', 'system-ui', 'sans-serif'],
+        body: ['"DM Sans"', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -61,9 +61,9 @@ export default {
           end: "hsl(var(--gradient-end))",
         },
         neon: {
-          purple: "hsl(var(--neon-purple))",
-          cyan: "hsl(var(--neon-cyan))",
-          pink: "hsl(var(--neon-pink))",
+          amber: "hsl(var(--neon-amber))",
+          mint: "hsl(var(--neon-mint))",
+          coral: "hsl(var(--neon-coral))",
         },
       },
       borderRadius: {
