@@ -37,8 +37,8 @@ const Learning = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-[100px] animate-float-slow" />
-        <div className="absolute bottom-[-10%] left-[-5%] w-[300px] h-[300px] bg-cyan-500/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
+        <div className="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-neon-amber/10 rounded-full blur-[100px] animate-float-slow" />
+        <div className="absolute bottom-[-10%] left-[-5%] w-[300px] h-[300px] bg-neon-mint/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
       </div>
 
       <div className="relative z-10 p-4 md:p-8">
@@ -49,7 +49,7 @@ const Learning = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-blue-500 via-cyan-400 to-teal-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(25,100%,60%)] to-[hsl(45,100%,55%)] shadow-lg">
                 <Brain className="w-8 h-8 text-white" />
               </div>
               <div>

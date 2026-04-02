@@ -92,8 +92,8 @@ const Productivity = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute top-[-10%] left-[10%] w-[400px] h-[400px] bg-emerald-500/10 rounded-full blur-[100px] animate-float-slow" />
-        <div className="absolute bottom-[-10%] right-[10%] w-[300px] h-[300px] bg-green-500/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
+        <div className="absolute top-[-10%] left-[10%] w-[400px] h-[400px] bg-neon-mint/10 rounded-full blur-[100px] animate-float-slow" />
+        <div className="absolute bottom-[-10%] right-[10%] w-[300px] h-[300px] bg-neon-coral/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
       </div>
 
       <div className="relative z-10 p-4 md:p-8">
@@ -104,7 +104,7 @@ const Productivity = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500 via-green-400 to-lime-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(165,80%,45%)] to-[hsl(145,70%,50%)] shadow-lg">
                 <Calendar className="w-8 h-8 text-white" />
               </div>
               <div>

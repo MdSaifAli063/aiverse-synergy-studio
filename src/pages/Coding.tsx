@@ -34,8 +34,8 @@ const Coding = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-orange-500/10 rounded-full blur-[100px] animate-float-slow" />
-        <div className="absolute bottom-[-10%] left-[-5%] w-[300px] h-[300px] bg-amber-500/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
+        <div className="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-neon-amber/10 rounded-full blur-[100px] animate-float-slow" />
+        <div className="absolute bottom-[-10%] left-[-5%] w-[300px] h-[300px] bg-neon-coral/8 rounded-full blur-[80px] animate-float-slow stagger-2" />
       </div>
 
       <div className="relative z-10 p-4 md:p-8">
@@ -46,7 +46,7 @@ const Coding = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-orange-500 via-amber-400 to-yellow-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(200,90%,50%)] to-[hsl(220,85%,55%)] shadow-lg">
                 <Code className="w-8 h-8 text-white" />
               </div>
               <div>
@@ -104,7 +104,7 @@ const Coding = () => {
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" /> Paste clean, formatted code</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0" /> Include relevant context in comments</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" /> Focus on small functions or blocks</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-neon-cyan shrink-0" /> Works with Python, JS, and more!</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-neon-mint shrink-0" /> Works with Python, JS, and more!</li>
             </ul>
           </div>
         </div>
