@@ -6,23 +6,23 @@
 
 @layer base {
   :root {
-    --background: 250 20% 5%;
-    --foreground: 45 30% 96%;
+    --background: 240 15% 8%;
+    --foreground: 40 25% 95%;
 
-    --card: 250 18% 9%;
-    --card-foreground: 45 30% 96%;
+    --card: 240 12% 12%;
+    --card-foreground: 40 25% 95%;
 
-    --popover: 250 20% 8%;
-    --popover-foreground: 45 30% 96%;
+    --popover: 240 14% 10%;
+    --popover-foreground: 40 25% 95%;
 
     --primary: 25 100% 60%;
-    --primary-foreground: 250 20% 5%;
+    --primary-foreground: 240 15% 5%;
 
     --secondary: 165 80% 45%;
-    --secondary-foreground: 250 20% 5%;
+    --secondary-foreground: 240 15% 5%;
 
-    --muted: 250 15% 15%;
-    --muted-foreground: 250 10% 55%;
+    --muted: 240 10% 18%;
+    --muted-foreground: 240 8% 55%;
 
     --accent: 340 85% 58%;
     --accent-foreground: 0 0% 100%;
@@ -30,8 +30,8 @@
     --destructive: 0 85% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 250 15% 14%;
-    --input: 250 15% 12%;
+    --border: 240 12% 16%;
+    --input: 240 12% 14%;
     --ring: 25 100% 60%;
 
     --radius: 1rem;
@@ -40,8 +40,8 @@
     --gradient-mid: 340 85% 58%;
     --gradient-end: 165 80% 45%;
 
-    --glass-bg: 250 18% 9%;
-    --glass-border: 250 20% 18%;
+    --glass-bg: 240 12% 12%;
+    --glass-border: 240 15% 20%;
 
     --neon-amber: 25 100% 62%;
     --neon-mint: 165 80% 50%;
@@ -58,10 +58,11 @@
     @apply bg-background text-foreground antialiased;
     font-family: 'DM Sans', system-ui, sans-serif;
     background:
-      radial-gradient(ellipse 80% 50% at 50% -20%, hsla(25, 100%, 60%, 0.08) 0%, transparent 50%),
-      radial-gradient(ellipse 60% 40% at 80% 80%, hsla(165, 80%, 45%, 0.05) 0%, transparent 50%),
-      radial-gradient(ellipse 40% 30% at 10% 60%, hsla(340, 85%, 58%, 0.04) 0%, transparent 50%),
-      linear-gradient(180deg, hsl(250, 20%, 5%) 0%, hsl(250, 25%, 3%) 100%);
+      radial-gradient(ellipse 90% 60% at 50% -10%, hsla(25, 100%, 60%, 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse 50% 50% at 90% 70%, hsla(165, 80%, 45%, 0.06) 0%, transparent 50%),
+      radial-gradient(ellipse 40% 40% at 10% 80%, hsla(340, 85%, 58%, 0.05) 0%, transparent 50%),
+      radial-gradient(ellipse 80% 80% at 50% 50%, hsla(240, 20%, 14%, 1) 0%, transparent 100%),
+      linear-gradient(165deg, hsl(240, 18%, 10%) 0%, hsl(250, 22%, 6%) 40%, hsl(220, 30%, 8%) 100%);
     min-height: 100vh;
   }
 
