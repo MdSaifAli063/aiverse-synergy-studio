@@ -10,7 +10,6 @@ import Learning from "./pages/Learning";
 import Creative from "./pages/Creative";
 import Productivity from "./pages/Productivity";
 import Coding from "./pages/Coding";
-import About from "./pages/About";
 import Impact from "./pages/Impact";
 import NotFound from "./pages/NotFound";
 
