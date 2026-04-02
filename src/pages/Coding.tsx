@@ -104,7 +104,7 @@ const Coding = () => {
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" /> Paste clean, formatted code</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-secondary shrink-0" /> Include relevant context in comments</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" /> Focus on small functions or blocks</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-neon-cyan shrink-0" /> Works with Python, JS, and more!</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-neon-mint shrink-0" /> Works with Python, JS, and more!</li>
             </ul>
           </div>
         </div>
