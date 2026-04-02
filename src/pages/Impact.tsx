@@ -6,10 +6,10 @@ const Impact = () => {
   const navigate = useNavigate();
 
   const impacts = [
-    { icon: Brain, title: "Adaptive Learning", description: "Our AI tutor adapts to your pace and style, making learning more effective and personalized than ever before.", metric: "40% faster learning", gradient: "from-blue-500 to-cyan-400" },
-    { icon: Users, title: "Human-AI Collaboration", description: "We demonstrate that AI works best as a partner, not a replacement, enhancing human creativity and decision-making.", metric: "3x productivity boost", gradient: "from-purple-500 to-pink-400" },
-    { icon: TrendingUp, title: "Continuous Improvement", description: "Our AI learns from interactions, becoming more helpful and accurate with every conversation.", metric: "95% user satisfaction", gradient: "from-emerald-500 to-lime-400" },
-    { icon: Zap, title: "Instant Insights", description: "Get immediate feedback, suggestions, and analysis across learning, creativity, and coding tasks.", metric: "Real-time collaboration", gradient: "from-orange-500 to-amber-400" },
+    { icon: Brain, title: "Adaptive Learning", description: "Our AI tutor adapts to your pace and style, making learning more effective and personalized than ever before.", metric: "40% faster learning", gradient: "from-[hsl(25,100%,60%)] to-[hsl(45,100%,55%)]" },
+    { icon: Users, title: "Human-AI Collaboration", description: "We demonstrate that AI works best as a partner, not a replacement, enhancing human creativity and decision-making.", metric: "3x productivity boost", gradient: "from-[hsl(340,85%,58%)] to-[hsl(310,80%,55%)]" },
+    { icon: TrendingUp, title: "Continuous Improvement", description: "Our AI learns from interactions, becoming more helpful and accurate with every conversation.", metric: "95% user satisfaction", gradient: "from-[hsl(165,80%,45%)] to-[hsl(145,70%,50%)]" },
+    { icon: Zap, title: "Instant Insights", description: "Get immediate feedback, suggestions, and analysis across learning, creativity, and coding tasks.", metric: "Real-time collaboration", gradient: "from-[hsl(200,90%,50%)] to-[hsl(220,85%,55%)]" },
   ];
 
   return (
