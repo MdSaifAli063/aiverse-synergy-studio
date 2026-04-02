@@ -63,7 +63,7 @@ const Creative = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-rose-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(340,85%,58%)] to-[hsl(310,80%,55%)] shadow-lg">
                 <Palette className="w-8 h-8 text-white" />
               </div>
               <div>

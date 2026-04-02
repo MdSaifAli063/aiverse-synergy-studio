@@ -49,7 +49,7 @@ const Learning = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-blue-500 via-cyan-400 to-teal-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(25,100%,60%)] to-[hsl(45,100%,55%)] shadow-lg">
                 <Brain className="w-8 h-8 text-white" />
               </div>
               <div>

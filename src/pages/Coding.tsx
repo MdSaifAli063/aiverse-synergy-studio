@@ -46,7 +46,7 @@ const Coding = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-orange-500 via-amber-400 to-yellow-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(200,90%,50%)] to-[hsl(220,85%,55%)] shadow-lg">
                 <Code className="w-8 h-8 text-white" />
               </div>
               <div>

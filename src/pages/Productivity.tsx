@@ -104,7 +104,7 @@ const Productivity = () => {
 
           <div className="glass-card p-8 rounded-3xl neon-border mb-6 animate-slide-up stagger-1">
             <div className="flex items-center gap-4 mb-6">
-              <div className="p-4 rounded-2xl bg-gradient-to-br from-emerald-500 via-green-400 to-lime-400 shadow-lg">
+              <div className="p-4 rounded-2xl bg-gradient-to-br from-[hsl(165,80%,45%)] to-[hsl(145,70%,50%)] shadow-lg">
                 <Calendar className="w-8 h-8 text-white" />
               </div>
               <div>
